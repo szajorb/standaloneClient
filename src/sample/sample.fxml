@@ -2,11 +2,17 @@
 
 <?import com.jfoenix.controls.JFXDrawer?>
 <?import com.jfoenix.controls.JFXHamburger?>
+<?import com.jfoenix.controls.JFXTextArea?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="600.0" minWidth="800.0" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="600.0" minWidth="800.0" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
-      <JFXHamburger fx:id="hamburgerMenu" layoutX="123.0" layoutY="7.0" prefHeight="47.0" prefWidth="50.0" />
-      <JFXDrawer fx:id="drawerMenu" layoutY="-1.0" prefHeight="600.0" prefWidth="123.0" />
+      <JFXDrawer fx:id="drawerMenu" prefHeight="600.0" prefWidth="123.0" />
+      <JFXHamburger fx:id="hamburgerMenu" prefHeight="36.0" prefWidth="36.0" />
+      <AnchorPane fx:id="contentContainer" layoutX="123.0" prefHeight="600.0" prefWidth="677.0">
+         <children>
+            <JFXTextArea layoutX="98.0" layoutY="97.0" text="whale cum homepage" />
+         </children>
+      </AnchorPane>
    </children>
 </AnchorPane>

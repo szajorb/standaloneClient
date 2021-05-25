@@ -4,12 +4,11 @@
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.layout.VBox?>
 
-
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="118.0" spacing="50.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="118.0" spacing="50.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" >
    <children>
-      <JFXButton minWidth="0.0" prefHeight="26.0" prefWidth="121.0" text="1" />
-      <JFXButton minWidth="0.0" prefHeight="26.0" prefWidth="121.0" text="2" />
-      <JFXButton minWidth="0.0" prefHeight="26.0" prefWidth="121.0" text="3" />
+      <JFXButton fx:id="foodButton" accessibleText="foods" minWidth="0.0" prefHeight="26.0" prefWidth="121.0" text="food" />
+      <JFXButton fx:id="drinkButton" accessibleText="drinks" minWidth="0.0" prefHeight="26.0" prefWidth="121.0" text="drinks" />
+      <JFXButton fx:id="offersButton" accessibleText="offers" minWidth="0.0" prefHeight="26.0" prefWidth="121.0" text="offers" />
    </children>
    <padding>
       <Insets top="20.0" />
